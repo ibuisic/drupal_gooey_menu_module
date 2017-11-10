@@ -1,3 +1,3 @@
 # drupal_gooey_menu_module
 
-Make the menus gooey, louie.
+Is your Drupal website looking a big phooey, install menus gooey.
