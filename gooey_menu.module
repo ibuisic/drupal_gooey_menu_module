@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Makes a template suggestion to override the template
+ */
+
+function gooey_menu_theme_registry_alter(&$theme_registry){
+  $gooey_path =  drupal_get_path('module', 'gooey_menu') . '/templates';
+  $theme_registry['menu_local_tasks']['path'] = $gooey_path;
+  $theme_registry['menu_local_task']['path'] = $gooey_path;
+}
+

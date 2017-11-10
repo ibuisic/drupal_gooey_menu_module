@@ -1,0 +1,9 @@
+gooey_menu:
+  version: VERSION
+  css:
+    theme:
+      css/gooey_menu.css: {}
+  js:
+    js/script.js: {}
+  dependencies:
+  - core/jquery 
